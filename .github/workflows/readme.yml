@@ -21,7 +21,7 @@ jobs:
       - name: 'create readme'
         uses: 'clouddrove/github-actions@v9.0.3'
         with:
-          tf_actions_subcommand: 'readme' 
+          terraform_subcommand: 'readme'
           github_token: '${{ secrets.GITHUB}}'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
@@ -38,7 +38,7 @@ jobs:
         uses: 'clouddrove/github-actions@v9.0.3'
         continue-on-error: true
         with:
-          tf_actions_subcommand: 'push' 
+          terraform_subcommand: 'push' 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
 
