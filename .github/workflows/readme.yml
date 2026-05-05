@@ -8,8 +8,8 @@ on:
 
 jobs:
   readme-create:
-    name: 'readme-create'
-    runs-on: ubuntu-latest
+    name: 'readme-create' 
+    runs-on: ubuntu-latest 
 
     steps:
       - name: 'Checkout'
