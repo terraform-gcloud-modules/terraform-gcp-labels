@@ -22,7 +22,7 @@ jobs:
         with:
           working-dir: .
           output-file: README.md
-          output-method: inject
+          output-method: inject 
           git-push: "true"               
       - name: 'Slack Notification'
         uses: clouddrove/action-slack@v2
