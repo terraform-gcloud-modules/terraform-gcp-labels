@@ -3,7 +3,7 @@ name: 'Create README.md file'
 on:
   push:
     branches:
-      - fix/github-action-faqilure
+      - fix/github-action-failure
   workflow_dispatch:
 
 jobs:
